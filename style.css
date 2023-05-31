@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'AmazonEmber';
+    src: url("Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Th.ttf");
+
+}
+
+* {
+    font-family: "AmazonEmber";
+}
+
+body {
+    background-color: #00050D;
+    margin: 0%;
+}
+
+.header-div {
+    height: 48px;
+    width: 900px;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.header-img {
+    padding: 15px;
+}
+
+.menu-header {
+    background-color: transparent;
+    color: #aaaaaa;
+    outline: none;
+    border: none;
+    width: auto;
+    margin-left: 20px;
+}
+
+.inside-drop-down-menu {
+    background-color: #191e25;
+    border: none;
+    outline: none;
+}
+
+.menu-header:hover {
+    background-color: #191e25;
+    color: white;
+}
+
+.head-dropdown-option {
+    background-color: #191e25;
+    margin-left: 20px;
+}
+
+.fa-magnifying-glass {
+    color: #8daaaa;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.try-for-free {
+    background-color: transparent;
+    color: #aaaaaa;
+    width: 200px;
+    padding-top: 16px;
+    margin-left: 20px;
+}
+
+.bholaa-div {
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),
+        url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    height: 513px;
+    background-size: cover;
+}
+
+.sign-in-page-bholaa {
+    position: absolute;
+    top: 112px;
+    left: 76px;
+}
+
+.button-navigate {
+    background-color: transparent;
+    color: white;
+}
+
+.button-navigate p:first-child {
+    font-size: 42.8px;
+    font-weight: 700;
+    margin-bottom: -0px;
+}
+
+.button-navigate p:nth-child(2) {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.button-amazon-sign-in {
+    background-color: #0e7bb1;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 13px 63px 13px 63px;
+}
+
+.ps-2-div {
+    background-image: linear-gradient(to left, #000 40%, transparent 58%),
+        url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Left.jpg);
+    /* background-position: left top; */
+    height: 475px;
+
+}
+
+.ps-2-sign-in {
+    position: absolute;
+    right: 76px;
+    top: 117px;
+}
+
+.ps-2 {
+    position: relative;
+}
+
+/* *Streaming channels */
+
+.streaming-channels {
+    height: 657px;
+    background-color: #ffffff;
+}
+
+.streaming-channels-div {
+    display: flex;
+    padding: 10px 76px 10px 76px;
+}
+
+.streaming-channels-text {
+    flex: 1;
+}
+
+.streaming-channels-text p:nth-child(1) {
+    font-size: 44.8px;
+    line-height: 49.6px;
+    margin: 24px 78px 24px 0;
+    color: #000000;
+    font-weight: 600;
+}
+
+.streaming-channels-text p:nth-child(2) {
+    font-size: 24px;
+    color: #000000;
+    line-height: 29px;
+    margin-right: 78px;
+    font-weight: 600;
+}
+
+.streaming-channels-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex: 1;
+    gap: 6px;
+}
+
+.streaming-channels-logo img {
+    width: 222px;
+    height: 153px;
+    cursor: pointer;
+}
+
+/* * fire tv  */
+.fireTV-section {
+    position: relative;
+    background-size: cover;
+}
+
+.fireTV-section-div {
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    height: 500px;
+}
+
+.fireTV-text {
+    position: absolute;
+    right: 76px;
+    top: 40px;
+}
+
+.fireTV-text p:nth-child(1) {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.fireTV-text p:nth-child(2) {
+    font-size: 21px;
+    width: 595px;
+    line-height: 27px;
+}
+/* *Cartoon */
+.cartoon-section{
+    position: relative;
+}
+.cartoon-div {
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg);
+    height: 500px;
+    background-size: cover;
+}
+.sign-in-page-cartoon{
+    position:absolute;
+    top: 100px;
+    left: 76px;
+    
+}
+.sign-in-page-cartoon p:nth-child(1){
+font-size: 40px;
+margin-top: 0;
+}
+.sign-in-page-cartoon p:nth-child(2){
+    width: 600px;
+    font-size: 21px;
+    line-height: 27.3px;
+}
+footer{
+    color: #949494;
+    background-color: #222222;
+}
+.footer-center-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.privacy-feedback-help{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.privacy-feedback-help a{
+    color: #0f79af;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.footer-center-div p{
+    color: #949494;
+    font-size: 15px;
+    line-height:20px;
+    line-height: 20px;
+    font-weight: 600;
+    width: 302px;
+}
